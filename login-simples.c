@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 int main(){
     int senha;
+    
     do {
         printf("Digite a senha: ");
         scanf("%d", &senha);
@@ -9,7 +11,7 @@ int main(){
         }
     }while (senha != 4321);
 
-
+    printf('Senha correta, parabéns!');
 
    return 0;
 
